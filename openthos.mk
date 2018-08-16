@@ -19,5 +19,11 @@ PRODUCT_COPY_FILES := \
 
 PRODUCT_PACKAGES := \
     OtoAppStore \
+    OtoCloudService \
+    OtoCompress \
     OtoFileManager \
     OtoLauncher \
+    OtoPhoto \
+    OtoPinyinIME \
+    OtoRecorder \
+    Termux
