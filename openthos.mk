@@ -17,6 +17,8 @@
 PRODUCT_COPY_FILES := \
     $(LOCAL_PATH)/bootanimation.zip:system/media/bootanimation.zip
 
+PRODUCT_PACKAGE_OVERLAYS := $(LOCAL_PATH)/overlay
+
 PRODUCT_PACKAGES := \
     OtoAppStore \
     OtoCloudService \

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- See storage config details at http://source.android.com/tech/storage/ -->
+
+<StorageList xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- internal emulated storage -->
+    <storage
+        android:storageDescription="@string/storage_internal"
+        android:primary="true"
+        android:emulated="true"
+        android:mtpReserve="100" />
+</StorageList>
