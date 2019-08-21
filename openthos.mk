@@ -15,7 +15,8 @@
 #
 
 PRODUCT_COPY_FILES := \
-    $(LOCAL_PATH)/bootanimation.zip:system/media/bootanimation.zip
+    $(LOCAL_PATH)/bootanimation.zip:system/media/bootanimation.zip \
+	 $(LOCAL_PATH)/init.sh:system/vendor/etc/init.sh
 
 PRODUCT_PACKAGE_OVERLAYS := $(LOCAL_PATH)/overlay
 
